@@ -15,6 +15,7 @@ var employees = [
 
 exports.findAll = function (req, res, next) {
     var name = req.query.name;
+    alert(name);
     if (name) {
         res.send(employees.filter(function(employee) {
             return (employee.firstName + ' ' + employee.lastName).toLowerCase().indexOf(name.toLowerCase()) > -1;
