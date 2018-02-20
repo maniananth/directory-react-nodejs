@@ -4,5 +4,6 @@
   "version": "0.0.1",
   "dependencies": {
     "express": "^4.10.6"
+    "angular" : "^1.6.7"
   }
 }
